@@ -1,0 +1,8 @@
+<!-- <launch>
+    <node pkg="tf" type="static_transform_publisher" name="static_transform_publisher" output="screen"
+    args="0 0 0 0 0 0 map odom 100"/>
+</launch> -->
+
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="kinect_static_transform_publisher" args="0 0 1.2 0 0 0 base_link kinect_link 100"/>
+</launch>

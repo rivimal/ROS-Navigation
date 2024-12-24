@@ -1,0 +1,2 @@
+exercise_2_10:get_map_data:get_pose:initialize_particles:make_plan:my_amcl_launcher:my_mapping_launcher:my_move_base_launcher:provide_map:send_goals
+-DCATKIN_DEVEL_PREFIX=/home/user/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/catkin_ws/install -G Unix Makefiles
